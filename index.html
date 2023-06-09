@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example App</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="pimg">
+    <div class="p-text">
+      <span class="border"><h1>Supermarket E-commerce Dashboard</h1></span>
+    </div>
+  </div>
+
+  <div class="product">
+    <p>Key in your input to filter the table | Search Through The Store Using Words or Numbers</p>
+    <input type="text" id="myinput" placeholder="Search..." title="Type in something">
+  </div>
+
+  <div class="align">
+    <h2>Product Table</h2>
+    <!-- <p>Click on the header of a column to sort the table:</p> -->
+    <table>
+      <thead><tr>
+        <th><span id="name tab" class="w3-button table-column">Invoice ID <i class="caret"></i></span></th>
+        <th><span id="quantity tab" class="w3-button table-column">Branch <i class="caret"></i></span></th>
+        <th><span id="quantity tab" class="w3-button table-column">City <i class="caret"></i></span></th>
+        <th><span id="price tab" class="w3-button table-column">Customer Type <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Gender <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Product Line <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Unit Price <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Quantity <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Tax 5% <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Total <i class="caret"></i></span></th>
+        <th><span id="expiry tab" class="w3-button table-column">Payment <i class="caret"></i></span></th>
+      </tr></thead>
+      <tbody id="mytable"></tbody>
+    </table>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
